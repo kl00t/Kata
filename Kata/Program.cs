@@ -1,7 +1,9 @@
 ﻿using Kata;
 
-Console.WriteLine(OddEven.PrintOddEven(10));
 
+var result = OddEven.PrintOddEven(10);
+Console.WriteLine(result);
 
 object[] myArray = [0, false, 'a', 'b', 0];
-Console.WriteLine(SortArray.Sort(myArray));
+var sortedArrayResult = SortArray.Sort(myArray);
+Console.WriteLine(sortedArrayResult.OutputAsString());
